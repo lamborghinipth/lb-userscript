@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20240106
+! Version: 202401060601
 ! Title: LB XXX List - chặn các trang web sex
-! Last modified: 06 Jan 2024 07:56:25 UTC+7
+! Last modified: 06 Jan 2024 06:01:25 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! Học hỏi từ đây
@@ -20,49 +20,52 @@
 ! Chặn toàn bộ web liên quan tới XXX
 !||*xvideo*^$all
 ||*xvideo*^$document
-/^.*?xvideo.*?$/##^body
+! Chặn bằng body không mạnh bằng html -> nên dùng html. 
+! Đổi từ body -> html cho toàn bộ danh sách - 06/01/2024
+!/^.*?xvideo.*?$/##^body --- bỏ, đổi sang html, dòng dưới
+/^.*?xvideo.*?$/##^html
 
 !||*jav*^$all
 ||*jav*^$document
-/^.*?jav.*?$/##^body
+/^.*?jav.*?$/##^html
 
 !||*vlx*^$all
 ||*vlx*^$document
-/^.*?vlx.*?$/##^body
+/^.*?vlx.*?$/##^html
 
 !||*xx*^$all
 ||*xx*^$document
-/^.*?xx.*?$/##^body
+/^.*?xx.*?$/##^html
 
 ||*3x*^$document
-/^.*?3x.*?$/##^body
+/^.*?3x.*?$/##^html
 
 ||*sex*^$document
-/^.*?sex.*?$/##^body
+/^.*?sex.*?$/##^html
 
 ||*porn*^$document
-/^.*?porn.*?$/##^body
+/^.*?porn.*?$/##^html
 
 ||*lenlut*^$document
-/^.*?lenlut.*?$/##^body
+/^.*?lenlut.*?$/##^html
 
 ||*buomtv*^$document
-/^.*?buomtv.*?$/##^body
+/^.*?buomtv.*?$/##^html
 
 ||*anime*^$document
-/^.*?anime.*?$/##^body
+/^.*?anime.*?$/##^html
 
 ||*manga*^$document
-/^.*?manga.*?$/##^body
+/^.*?manga.*?$/##^html
 
 ||*hentai*^$document
-/^.*?hentai.*?$/##^body
+/^.*?hentai.*?$/##^html
 
 ||*milf*^$document
-/^.*?milf.*?$/##^body
+/^.*?milf.*?$/##^html
 
 ||*3some*^$document
-/^.*?3some.*?$/##^body
+/^.*?3some.*?$/##^html
 
 ||*gangbang*^$document
-/^.*?gangbang.*?$/##^body
+/^.*?gangbang.*?$/##^html
