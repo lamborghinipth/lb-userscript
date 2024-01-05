@@ -1,0 +1,68 @@
+[Adblock Plus 2.0]
+! Version: 20240106
+! Title: LB XXX List - chặn các trang web sex
+! Last modified: 06 Jan 2024 07:56:25 UTC+7
+! Expires: 1 days (update frequency)
+!
+! Học hỏi từ đây
+! ABPVN List filter
+! Copyright: ABPVN
+! Homepage: https://github.com/lamborghinipth/lb-userscript
+! License: GPLv3 (https://github.com/abpvn/abpvn/blob/master/LICENSE)
+! Please report any unblocked ads or problems by email or in our fanpage
+! Mọi thắc mắc xin gửi về email hoặc fanpage
+! Email: support@abpvn.com
+! Facebook Fanpage: https://www.facebook.com/abpvn.org
+! Forum: https://voz.vn/t/official-abpvn-bo-loc-quang-cao-cho-nguoi-viet-bao-cao-quang-cao-giai-dap-thac-mac.867616/
+! Report new issue on github: https://github.com/abpvn/abpvn/issues/new
+! ---------- Generic Blocking Rules ---------- =========================================================================================================================================================
+! JAV XXX =========================================================================================================================================================
+! Chặn toàn bộ web liên quan tới XXX
+!||*xvideo*^$all
+||*xvideo*^$document
+/^.*?xvideo.*?$/##^body
+
+!||*jav*^$all
+||*jav*^$document
+/^.*?jav.*?$/##^body
+
+!||*vlx*^$all
+||*vlx*^$document
+/^.*?vlx.*?$/##^body
+
+!||*xx*^$all
+||*xx*^$document
+/^.*?xx.*?$/##^body
+
+||*3x*^$document
+/^.*?3x.*?$/##^body
+
+||*sex*^$document
+/^.*?sex.*?$/##^body
+
+||*porn*^$document
+/^.*?porn.*?$/##^body
+
+||*lenlut*^$document
+/^.*?lenlut.*?$/##^body
+
+||*buomtv*^$document
+/^.*?buomtv.*?$/##^body
+
+||*anime*^$document
+/^.*?anime.*?$/##^body
+
+||*manga*^$document
+/^.*?manga.*?$/##^body
+
+||*hentai*^$document
+/^.*?hentai.*?$/##^body
+
+||*milf*^$document
+/^.*?milf.*?$/##^body
+
+||*3some*^$document
+/^.*?3some.*?$/##^body
+
+||*gangbang*^$document
+/^.*?gangbang.*?$/##^body
