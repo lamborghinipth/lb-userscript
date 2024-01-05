@@ -1,8 +1,8 @@
 ! BET CA CUOC
 [Adblock Plus 2.0]
-! Version: 20240105
+! Version: 202401060601
 ! Title: LB BET List - chặn các trang cá cược
-! Last modified: 05 Jan 2024 07:56:25 UTC+7
+! Last modified: 06 Jan 2024 06:01:25 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! Học hỏi từ đây
@@ -20,6 +20,8 @@
 ! Chặn toàn bộ web liên quan tới 8xbet
 !||*8xbe*^$all
 ||*8xbe*^$document
+! Chặn html đủ hơn chỉ chặn body 
+! Đổi từ body -> html cho toàn bộ danh sách - 06/01/2024
 /^.*?8xbe.*?$/##^body
 
 !||*bet*^$all
