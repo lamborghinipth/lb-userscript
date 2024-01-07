@@ -1,20 +1,20 @@
 [Adblock Plus 2.0]
-! Version: 20240107
+! Version: 202401080101
 ! Title: LB NimoTV - chặn rác trên nimo.tv
-! Last modified: 07 Jan 2024 07:56:25 UTC+7
+! Last modified: 08 Jan 2024 07:56:25 UTC+7
 ! Expires: 1 days (update frequency)
 !
-! Học hỏi từ đây
 ! LB List filter collection
 ! Copyright: https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/post-29244121
-! Homepage: https://github.com/lamborghinipth/lb-userscript
-! License: GPLv3 (https://github.com/lamborghinipth/lb-userscript/blob/master/LICENSE)
+! Homepage: https://github.com/lamborghinipth/lb-userscript/tree/adblock
+! License: GPLv3 (https://github.com/lamborghinipth/lb-userscript/blob/adblock/LICENSE)
 ! Please report any unblocked ads or problems by email or in our fanpage
 ! Mọi thắc mắc xin gửi về email hoặc fanpage
-! Email: 
+! Email: lamborghinipth@hotmail.com
 ! Facebook Fanpage: 
-! Forum: https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/post-29244121
-! Report new issue on github: https://github.com/abpvn/abpvn/issues/new
+! Forum: 
+! Report new issue on github: https://github.com/lamborghinipth/lb-userscript/issues/new
+
 ! ---------- Generic Blocking Rules ---------- =========================================================================================================================================================
 ! Ẩn header thanh thể loại
 www.nimo.tv##.game-area-head
